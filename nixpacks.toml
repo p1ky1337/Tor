@@ -1,0 +1,5 @@
+[phases.setup]
+aptPkgs = ["tor"]
+
+[start]
+cmd = "tor & streamlit run ui.py"
